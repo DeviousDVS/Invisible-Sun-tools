@@ -4,6 +4,8 @@ Some files to help play the Invisible Sun RPG
 ## Invisible Sun index
 A Python script that scrapes The Gate pdf for index references and presents them as a standalone HTML file. The links open the appropriate PDF to the referenced page.
 
+Video: https://www.youtube.com/watch?v=v3uuBQ3dGsE
+
 ### Prerequisites
  - Python 3.6+
  - Locally saved versions of the main four Invisible Sun PDFs (The Key, The Path, The Way, The Gate) in a single folder.
