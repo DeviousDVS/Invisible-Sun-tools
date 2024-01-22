@@ -6,6 +6,8 @@ A Python script that scrapes The Gate pdf for index references and presents them
 
 Video: https://www.youtube.com/watch?v=v3uuBQ3dGsE
 
+**NOTE**: The script specifically looks for files that use the [Monte Cook Games](https://www.montecookgames.com/) naming convention for downloaded files. If you have renamed the files, the script will not work.
+
 ### Prerequisites
  - Python 3.6+
  - Locally saved versions of the main four Invisible Sun PDFs (The Key, The Path, The Way, The Gate) in a single folder.
