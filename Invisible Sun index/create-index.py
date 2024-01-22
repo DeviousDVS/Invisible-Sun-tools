@@ -24,10 +24,24 @@ def create_html(bookmarks, books):
             background-color: black;
         }
 
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: black;
+        }
+
         .title {
             font-family: duvall-font;
             float: left;
             padding-left: 2%;
+        }
+
+        #bookmarks {
+            float: none;
+            clear: both;
+            margin-top: 80px;
         }
 
         ul {
@@ -208,12 +222,14 @@ def create_html(bookmarks, books):
 </head>
 
 <body onload="loaded()">
-    <h1 class="title">Invisible Sun Index</h1>
-    <div class="search">
-        <label for="searchbox">Search:</label>
-        <input type="search" oninput="liveSearch()" id="searchbox">
-    </div>
-    <div id="bookmarks" style="float: none; clear: both;">
+    <header>
+        <h1 class="title">Invisible Sun Index</h1>
+        <div class="search">
+            <label for="searchbox">Search:</label>
+            <input type="search" oninput="liveSearch()" id="searchbox">
+        </div>
+    </header>
+    <div id="bookmarks">
     </div>
 </body>
 
