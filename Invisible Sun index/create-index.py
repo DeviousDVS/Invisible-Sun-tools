@@ -295,6 +295,9 @@ def extract_index_data(file):
                     # clear held over line
                     hold = ""
 
+                    # Fix for Squad 57B
+                    if subject == "B of the Thah":
+                        subject = "Squad 57B of the Thah"
                     # Add subject, books, and pages to index_data
                     if subject not in index_data:
                         index_data[subject] = {}
