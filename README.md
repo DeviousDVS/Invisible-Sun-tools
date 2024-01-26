@@ -31,3 +31,23 @@ Video: https://www.youtube.com/watch?v=v3uuBQ3dGsE
 Once loaded in your browser, the links will open the PDFs in your browser.
 
 There is a search function to make it easier to find a specific topic.
+
+## Get Cards
+Python script to extract card data from Invisible Sun card PDF files and create a JSON file for use in other applications.
+
+### Prerequisites
+ - Python 3.6+
+ - Locally saved versions of the Invisible Sun card PDFs.
+
+ ### Usage
+ 1. Save or clone the repositiory to your computer.
+
+ 2. Install the dependencies:
+    
+    ```pip install -r requirements.txt```
+
+3. Run the script:
+    
+    ```python get-cards.py "C:\path\to\folder\with\pdfs\cardfile.pdf"```
+
+4. The script will create a file in the same folder as the script.
